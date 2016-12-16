@@ -57,7 +57,7 @@ The generated sort routine will sort by last number (sequence of [0-9]) found in
 text or (f no number is found in text) ascibetically. Items that have a number
 will sort before items that do not.
 
-This is nifty for something like:
+This is nifty for something like (L<sortsub> is CLI front-end for L<Sort::Sub>):
 
  % ls
  christophe willem - cafeine (2009)/
@@ -65,7 +65,7 @@ This is nifty for something like:
  christophe willem - parait-il (2014)/
  christophe willem - prismophonic (2011)/
 
- % ls | sortsub
+ % ls | sortsub last_num_in_text
  christophe willem - inventaire (2007)/
  christophe willem - cafeine (2009)/
  christophe willem - prismophonic (2011)/
