@@ -1,4 +1,4 @@
-package Sort::Sub::num_in_text;
+package Sort::Sub::first_num_in_text;
 
 # DATE
 # VERSION
